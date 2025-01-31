@@ -1,0 +1,116 @@
+.form_1 {
+    width: 395px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form_1 > input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.form_1 > button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.paragraph {
+    width: 395px;
+}
+
+.form_2 {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form_2 > input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.form_2 > button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.form_3 {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form_3 > button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.form_3 > input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.form_4 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_4 > button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.form_4 > input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;  
+    margin-bottom: 10px;   
+}
+
+.form_5 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_5 > button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.form_5 > button:disabled {
+    background-color: rgb(158, 158, 158);
+}
